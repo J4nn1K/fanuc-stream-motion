@@ -1,2 +1,7 @@
-# fanuc-stream-motion
-Software to control Fanuc manipulators via Stream Motion function (J519).
+# Fanuc Stream Motion
+
+The Stream Motion function (J519) allows an external device to control a robot’s motion by sending UDP packets through the Ethernet connection between the external device. The robot moves to the commanded position after a very short delay.
+
+This repository includes software to control Fanuc manipulators via the Stream Motion function. 
+
+For more information on the protocol please refer to Fanuc's offical documentation.
